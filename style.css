@@ -1,9 +1,9 @@
 :root {
-     --green: #5ed68a;
-     --red: #1ea6c8;
-     --background: #fafafa;
-     --gradient-1: #343e63;
-     --gradient-2: #2a3352;
+    --green:#d65ecc;
+    --red: #1ea6c8;
+    --background:#fafafa;
+    --gradient-1:#343e63;
+    --gradient-2: #2a3352;
 }
 
 html{
@@ -14,11 +14,9 @@ html{
 body{
     width:90vw;
     margin:0 auto;
-    background: radial-gradient(var(--gradient-1), var
-    (--gradient-2));
+    background: radial-gradient(var(--gradient-1), var(--gradient-2));
     padding: 4rem;
 }
-
 
 main{
 
@@ -29,13 +27,12 @@ main{
     min-height: height 40vh;
     border-radius: 2rem 2rem 2rem 2rem;
     padding: 4rem;
-    color: #1f2933
+    color: #1f2933;
 }
 
 h2{
-    margin: ;
-
-
+    font-size: 3.2rem;
+    margin: 2rem 2rem 2rem 2rem;
 }
 
 p{
@@ -45,26 +42,24 @@ p{
 .button-wrapper {
     display: flex;
     flex-direction: column;
-
 }
 
 button{
     border: none;
-    cursor: pointer;
+    cursor:pointer;
     background: var(--green);
     padding: 2rem 6rem;
-    border-radius: 1rem 1rem 0 0;
-    font: size 1.4rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    font-size:1.4rem;
 }
-
 
 button:last-child{
     background: var(--red);
-    border: ;
+    border-radius:1rem 1rem 1rem 1rem;
 }
 
 h3{
-    font: size 2rem;
+    font-size:2rem;
 }
 
 input{
@@ -73,25 +68,22 @@ input{
     margin:2rem 0;
     padding: 1rem 0;
     width:25rem;
-    text-align: center;
+    text-align:center;
     font-size:2rem;
-
 }
 
 .stats{
     text-align: left;
-
 }
 
 .info{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-.info span{
-    font-size: 1.6rem;
+.info span {
+    font-size:1.6rem;
 }
 
 #newGameButton{
@@ -99,7 +91,7 @@ input{
 }
 
 @media(min-width: 800px){
-    body{
-        width:60px;
+    body {
+        width:60vw;
     }
 }
